@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px; /* Remove default margin */
+    background-image: url("images/background.jpg");
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+ul.topnav li a article {
+    width: 0%;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end; /* Align items to the end of the flex container */
+    font-size: 15px;
+}
+
+ul.topnav li {
+    float: none; /* Reset float */
+    width: auto;
+}
+
+ul.topnav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    text-decoration: underline;
+}
+  
+ul.topnav li a.active {
+    color: whitesmoke ;
+    text-decoration: underline;
+}
+
+ul.topnav li.left a:hover:not(.active) {
+    text-decoration: none;
+}
+  
+ul.topnav li.left {
+    margin-right: auto;
+}
+  
+@media screen and (max-width: 600px) {
+    ul.topnav li.left, 
+    ul.topnav li {float: none;}
+}
+
+.welcome{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.details{
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.welH1{
+    margin: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    background-color: #112d3831; /* For visibility, you can remove this */
+    padding: 15px;
+    font-size: 10px;
+}
