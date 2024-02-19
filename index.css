@@ -1,0 +1,20 @@
+.welcome{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.details{
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.welH1{
+    margin: 5px;
+}

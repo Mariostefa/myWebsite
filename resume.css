@@ -1,0 +1,40 @@
+h1{
+    margin: 5px;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+#sect1{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: -12px;
+}
+
+#first{
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 200%;
+}
+
+#sec{
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 200%;
+}
+
+table{
+    width:100%;
+    margin-left: 5px;
+}
+
+p{
+    margin-left: 5px;
+
+}

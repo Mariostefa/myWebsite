@@ -9,7 +9,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px; /* Remove default margin */
     background-image: url("images/background.jpg");
-    background-repeat: repeat; /* Do not repeat the image */
+    background-repeat: repeat ; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
@@ -63,27 +63,6 @@ ul.topnav li.left {
 @media screen and (max-width: 600px) {
     ul.topnav li.left, 
     ul.topnav li {float: none;}
-}
-
-.welcome{
-    font-size: 25px;
-    text-align: center;
-    margin-top: 60px;
-}
-.info{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 80px;
-}
-.details{
-    margin-top: 40px;
-    font-size: 15px;
-    text-align: center;
-    line-height: 200%;
-}
-
-.welH1{
-    margin: 5px;
 }
 
 footer {
