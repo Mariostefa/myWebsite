@@ -36,5 +36,11 @@ table{
 
 p{
     margin-left: 5px;
+}
 
+hr{
+    background-color: rgb(15, 54, 85); 
+    height: 3px; 
+    border: none; 
+    width: 90%;
 }
