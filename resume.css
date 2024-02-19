@@ -37,10 +37,13 @@ table{
 p{
     margin-left: 5px;
 }
+h4{
+    text-decoration: underline;
+}
 
 hr{
     background-color: rgb(15, 54, 85); 
     height: 3px; 
     border: none; 
-    width: 90%;
+    width: 95%;
 }
