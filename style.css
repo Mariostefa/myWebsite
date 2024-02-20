@@ -11,6 +11,7 @@ body{
     background-image: url("images/background.jpg");
     background-repeat: repeat ; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
 }
 
 ul.topnav li a article {
