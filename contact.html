@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="footer.js"></script>
     <title>Contact</title>
 </head>
 <body>
@@ -18,13 +20,37 @@
         </ul>
   </nav>
 
-  <h1>Contact Form</h1>
+  <div id="title">
+    <h1>Contact Form</h1>
+    <hr style="background-color: rgb(25, 86, 136); margin-top: 0px; height: 3px; border: none; width: 27%;">
+  </div>
 
-  <footer>
-    <hr style="background-color: rgba(194, 198, 201, 0.692); height: 1px; border: none; width: 90%;">
-    <p>Copyrighted by Marios Sotirios Stefanidis. Last update February 19th, 2024.  All Rights Reserved.</p>
-    <p>My Website &copy;2024</p>
-    <p>THIS WEBPAGE IS UNDER CONSTRUCTION </p>
-</footer>
+  <div id="forms">
+    <div id="protect">
+    <form>
+      <div id="fullname">
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="Name" placeholder="Name" required>
+      </div>
+      <div id="mail">
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="Email"  placeholder="email" required>
+      </div>
+      <div id="textarea">
+      <label for="Message">Message</label><br>
+      <textarea id="Message" name="Message" rows="6" maxlength="2500" required placeholder="Write your Message"></textarea>
+      </div>
+
+      <input type="submit" id="submit" name="Submit"  value="Send Message">
+
+    </form>
+    </div>
+  </div>
+
+  <div w3-include-html="footer.html"></div>
+
+  <script>
+    includeHTML();
+  </script>
 </body>
 </html>
