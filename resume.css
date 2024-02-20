@@ -38,7 +38,8 @@ p{
     margin-left: 5px;
 }
 h4{
-    text-decoration: underline;
+    text-decoration-line: underline ;
+    text-underline-offset: 5px;
 }
 
 hr{
