@@ -66,12 +66,14 @@ ul.topnav li.left {
     ul.topnav li {float: none;}
 }
 
-footer {
-    position: absolute;
+footer{
+    margin-top: 50px;
+    background-color: #112d3831; /* For visibility, you can remove this */
+    padding-bottom: 3px;
+    font-size: 10px;
+    position: static;
+    left: 0;
     bottom: 0;
     width: 100%;
-    box-sizing: border-box; /* Ensures padding and border are included in the width */
-    background-color: #112d3831; /* For visibility, you can remove this */
-    padding: 15px;
-    font-size: 10px;
+    text-align: center;
 }
